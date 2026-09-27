@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FactoryAnalyzer/FactoryAnalyzer.csproj" />
+  </Folder>
+  <Folder Name="/src/SatisfactorySaveNet/">
+    <Project Path="src/SatisfactorySaveNet/SatisfactorySaveNet.Abstracts/SatisfactorySaveNet.Abstracts.csproj" />
+    <Project Path="src/SatisfactorySaveNet/SatisfactorySaveNet/SatisfactorySaveNet.csproj" />
+  </Folder>
+</Solution>

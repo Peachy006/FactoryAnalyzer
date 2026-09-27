@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dXpNlG+OpSQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\seanp\\Desktop\\riderProjects\\FactoryAnalyzer\\src\\FactoryAnalyzer\\FactoryAnalyzer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seanp\\.nuget\\packages\\communitytoolkit.highperformance\\8.4.2\\communitytoolkit.highperformance.8.4.2.nupkg.sha512",
+    "C:\\Users\\seanp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\seanp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\seanp\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "C:\\Users\\seanp\\.nuget\\packages\\ulid\\1.4.1\\ulid.1.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
