@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPublishable>true</IsPublishable>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SatisfactorySaveNet.Abstracts</PackageId>
+    <PackageTags>satisfactory serializier</PackageTags>
+    <Description>Satisfactory save file reader (and soon TM writer) interfaces and models</Description>
+    <PackageProjectUrl>https://github.com/R3dByt3/SatisfactorySaveNet</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/R3dByt3/SatisfactorySaveNet/releases</PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Math\**" />
+    <EmbeddedResource Remove="Math\**" />
+    <None Remove="Math\**" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>SatisfactorySaveNet</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

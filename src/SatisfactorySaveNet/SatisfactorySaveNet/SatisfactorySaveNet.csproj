@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPublishable>true</IsPublishable>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SatisfactorySaveNet</PackageId>
+    <PackageTags>satisfactory serializier</PackageTags>
+    <Description>Satisfactory save file reader (and soon TM writer)</Description>
+    <PackageProjectUrl>https://github.com/R3dByt3/SatisfactorySaveNet</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/R3dByt3/SatisfactorySaveNet/releases</PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.HighPerformance" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+    <PackageReference Include="Ulid" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SatisfactorySaveNet.Abstracts\SatisfactorySaveNet.Abstracts.csproj" />
+  </ItemGroup>
+
+</Project>
