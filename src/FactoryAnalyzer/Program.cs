@@ -2,7 +2,7 @@
 using SatisfactorySaveNet.Abstracts;
 using SatisfactorySaveNet.Abstracts.Model;
 
-var saveName = "example";
+var saveName = "beginner";
 
 var saveRoot = Path.Combine(
     Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
@@ -30,6 +30,17 @@ if (save.Body is BodyV8 body)
 {
     Console.WriteLine($"levels:   {body.Levels.Count}");
     Console.WriteLine($"objects:  {body.Levels.Sum(l => l.Objects.Count)}");
+    
+    Level? main = body.Levels.Where
+        (l => l.Name == "Level Persistent_Level").FirstOrDefault();
+    
+    Console.WriteLine($"main: {main?.Objects.Count}");
+
+    foreach (var obj in main.Objects)
+    {
+        Console.WriteLine(obj.TypePath);
+    }
+    
 }
 
-Console.WriteLine(save);
+Console.WriteLine(save.Body);
